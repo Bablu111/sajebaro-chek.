@@ -1,0 +1,9 @@
+@media (min-width: 320px) and (max-width: 576px){
+
+    #main-header .front-text {
+        position: absolute;
+        top: 263%;
+        /* left: 30%; */
+    }
+};
+

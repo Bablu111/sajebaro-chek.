@@ -1,0 +1,125 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: fantasy;
+}
+
+h1, h2, h3, h4, h5, h6, li, ol, ul, p {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+a, li {
+  text-decoration: none;
+  list-style: none;
+  display: inline-block;
+}
+
+#main-header {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 600px;
+  position: relative;
+}
+#main-header .logo {
+  top: 12%;
+  position: absolute;
+}
+#main-header .nav {
+  position: absolute;
+  right: 0;
+  top: 13%;
+}
+#main-header .nav a {
+  font-size: 14px;
+  color: #fff;
+  font-weight: 400;
+  text-align: center;
+  width: 80px;
+  height: 30px;
+  line-height: 15px;
+}
+#main-header .nav a:hover {
+  background-color: #744fa0;
+  border-radius: 4px;
+}
+#main-header .front-text {
+  position: absolute;
+  top: 263%;
+  left: 30%;
+}
+#main-header .front-text h1 {
+  font-size: 50px;
+  font-weight: 400;
+  color: #fff;
+  margin-left: 143px;
+}
+#main-header .front-text span {
+  color: #744fa0;
+}
+#main-header .front-text h6 {
+  font-size: 30px;
+  font-weight: 400;
+  color: #aeaeae;
+  position: relative;
+}
+#main-header .front-text h6 h6::after {
+  content: "";
+  width: 5px;
+  height: 100%;
+  background-color: red;
+  top: 30%;
+  position: absolute;
+  border: 1px solid;
+}
+#main-header .front-text P {
+  font-size: 14px;
+  font-weight: 400;
+  color: #fff;
+  text-align: left;
+  margin-top: 7px;
+  align-items: center;
+}
+#main-header .front-text .google {
+  width: 130px;
+  height: 36px;
+  background-color: #744fa0;
+  line-height: 17px;
+  text-align: center;
+  position: relative;
+  border-radius: 4px;
+  margin-top: 40px;
+}
+#main-header .front-text .google span {
+  color: #fff;
+  display: inline-block;
+  left: 4px;
+  top: 10px;
+  position: absolute;
+}
+#main-header .front-text .apple {
+  width: 130px;
+  height: 36px;
+  background-color: #fff;
+  line-height: 17px;
+  text-align: center;
+  position: relative;
+  border-radius: 4px;
+  margin-top: 40px;
+  color: #353535;
+  margin-left: 10px;
+}
+#main-header .front-text .apple span {
+  color: #353535;
+  display: inline-block;
+  left: 4px;
+  top: 6px;
+  font-size: 23px;
+  position: absolute;
+}
+#main-header .front-text .apple .apple:hover a {
+  background-color: #fff;
+}/*# sourceMappingURL=style.css.map */

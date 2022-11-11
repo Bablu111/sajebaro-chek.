@@ -1,0 +1,130 @@
+@import "./common";
+
+#main-header{
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+    position: relative;
+
+    .logo{
+        top:12%;
+        position: absolute;
+
+        
+    }
+    .nav{
+        position:absolute;
+        right: 0;
+        top: 13%;
+        
+
+        a{
+            font-size: 14px;
+            color: #fff;
+            font-weight: 400;
+            text-align: center;
+            
+            
+            width: 80px;
+            height: 30px;
+            line-height:15px
+        }
+        a:hover{
+            background-color: #744fa0;
+            border-radius: 4px;
+        }
+        
+    }
+    .front-text{
+        position: absolute;
+        top:263%;
+        left: 30%;
+        
+        h1{
+            font-size: 50px;
+            font-weight: 400;
+            color: #fff;
+            margin-left: 143px;
+            
+        }
+        span{
+            color: #744fa0;
+        }
+        h6{
+            font-size: 30px;
+            font-weight: 400;
+            color: #aeaeae;
+            position: relative;
+
+            h6::after{
+                content:'';
+                width: 5px;
+                height: 100%;
+                background-color: red;
+                top: 30%;
+                position: absolute;
+                border: 1px solid;
+             }
+             
+        }
+        P{
+            font-size: 14px;
+            font-weight: 400;
+            color: #fff;
+            text-align: left;
+            margin-top: 7px;
+            align-items: center;
+            
+            
+         }
+         .google{
+            width: 130px;
+            height: 36px;
+            background-color: #744fa0;
+            line-height: 17px;
+            text-align: center;
+            position: relative;
+            border-radius: 4px;
+            margin-top: 40px;
+
+            
+            
+            
+
+            span{
+                color: #fff;
+                display: inline-block;
+                left: 4px;
+                top: 10px;
+                
+                position: absolute;
+            }
+         }
+         .apple{
+            width: 130px;
+            height: 36px;
+            background-color: #fff;
+            line-height: 17px;
+            text-align: center;
+            position: relative;
+            border-radius: 4px;
+            margin-top: 40px;
+            color: #353535;
+            margin-left: 10px;
+
+            span{
+                color: #353535;
+                display: inline-block;
+                left: 4px;
+                top: 6px;
+                font-size: 23px;
+                position: absolute;
+            }
+            .apple:hover a{
+                background-color: #fff;
+            }
+         }
+    
+    }
+}
